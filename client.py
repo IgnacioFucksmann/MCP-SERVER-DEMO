@@ -1,6 +1,8 @@
 from mcp.client import MCPClient
 
-client = MCPClient("http://localhost:8000")  # Cambia el puerto si es necesario
+client = MCPClient(
+    "http://localhost:6277"
+)  # Actualizado al puerto correcto del servidor
 result = client.tool(
     "agregar_usuario_mcp",
     nombre="Maria Lopez",

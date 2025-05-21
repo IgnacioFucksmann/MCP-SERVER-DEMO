@@ -7,8 +7,8 @@ def get_connection():
         host="localhost",
         port=5432,
         dbname="postgres",
-        user="postgres",  # Reemplaza por tu usuario real
-        password="admin",  # Reemplaza por tu contraseña real
+        user="applica",  # Usuario correcto
+        password="applica",  # Contraseña correcta
     )
 
 
